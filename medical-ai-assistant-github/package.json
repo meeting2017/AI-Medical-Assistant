@@ -1,0 +1,20 @@
+{
+  "name": "medical-ai-assistant",
+  "version": "1.0.0",
+  "description": "基于 LangChain + LangGraph 的企业级多智能体医疗助手系统",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./frontend/static/input.css -o ./frontend/static/style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
